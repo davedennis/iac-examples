@@ -1,13 +1,14 @@
-# VPC Terraform IAC
-Creates the basic Infastructure for our VPC. This includes the following
-1. A VPC
-2. Internet Gateway for the public subnet
-3. Public Subnet (As many as you need)
-4. Private Subnet (As many as you need)
-5. Route Table for the Public Subnet
-6. Default Security
+# VPC and Network IAC
 
-## Dynamic Creationg of N Public Subnets
+Creates the basic Infastructure for our VPC and Networking. This includes the following
+1. A VPC
+2. Internet Gateway for the Public subnets
+3. Public Subnets (As many as you need)
+4. Private Subnets (As many as you need)
+5. Route Table for the Public Subnets
+6. Default Security Groups
+
+## Dynamic Creation of N Public And Private Subnets
 You can modify the script to create as little or as many public and private subnets as you want.
 
 #### Modifications Needed
